@@ -5,7 +5,6 @@ import shutil # ファイルコピー
 from PIL import Image # 画像情報を取得
 import PIL.ExifTags as ExifTags
 import reverse_geocoder as rg
-import random
 import string
 from pathlib import Path
 import glob

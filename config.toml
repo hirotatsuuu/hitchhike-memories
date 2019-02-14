@@ -1,9 +1,11 @@
 # Settings
-baseurl = "http://example.org/"
+baseurl = "https://hirotatsuuu.github.io/hitchhike-memories/"
 languageCode = "ja"
 title = "hitchhike memories"
 theme = "phugo"
 googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+canonifyurls = true
 
 [params]
 
@@ -24,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.footer.paragraph]
     headline = "hitchhike memories"
-    text = "今までにヒッチハイクで乗せて下さった方々です。"
+    text = "今までにヒッチハイクで乗せて下さった方々との思い出です。全ての方と写真を撮らせて頂いたわけでは無いため、実際に乗せて下さった方はもっといます。日本にいる間に100台以上、ニュージーランドでも50台ほどのヒッチハイクを経験しました。ヒッチハイクの魅力が伝わればと思い、このサイトを立ち上げました。"
 
     [params.footer.social]
     headline = "Follow me"
