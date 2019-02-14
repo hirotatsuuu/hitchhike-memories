@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00037.jpg"
-title = "Nagasaki Omura , JP"
-date = "2017-09-07"
+title = "Fukuoka Chikushino-shi , JP"
+date = "2017:09:06 22:09:35"
+weight = 37
 +++

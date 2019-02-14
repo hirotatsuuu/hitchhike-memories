@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00103.jpg"
-title = "Chiba Funabashi , JP"
-date = "2018-08-18"
+title = "Ibaraki Tomobe , JP"
+date = "2018:08:18 20:53:30"
+weight = 103
 +++

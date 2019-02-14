@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00143.jpg"
-title = "Marlborough Picton , NZ"
-date = "2019-01-21"
+title = "Wellington Wellington , NZ"
+date = "2019:01:16 10:58:49"
+weight = 143
 +++

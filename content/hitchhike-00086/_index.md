@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00086.jpg"
-title = "Akita Tenno , JP"
-date = "2018-08-15"
+title = "Akita Akita Shi , JP"
+date = "2018:08:15 02:57:29"
+weight = 86
 +++

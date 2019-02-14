@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00047.jpg"
-title = "Tokyo Tokyo , JP"
-date = "2017-12-17"
+title = "Shizuoka Kosai-shi , JP"
+date = "2017:12:17 14:23:52"
+weight = 47
 +++

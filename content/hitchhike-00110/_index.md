@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00110.jpg"
-title = "Auckland Parakai , NZ"
-date = "2018-11-05"
+title = "Great Barrier Island ,NZ "
+date = "2018:10:16 13:53:50"
+weight = 110
 +++

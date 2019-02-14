@@ -14,5 +14,12 @@
     {{ "<!--[if lte IE 8]>" | safeHTML }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/ie8.css" />
     {{ "<![endif]-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
     {{ template "_internal/google_analytics_async.html" . }}
+    <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@hirotatsuuu" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:title" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
+    <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hirotatsu-lp.appspot.com/o/og_image.png?alt=media&token=aec3eb94-5a42-494b-9772-436d02be039e" />

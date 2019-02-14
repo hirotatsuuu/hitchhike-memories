@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00115.jpg"
-title = " , "
-date = "0000-00-00"
+title = "Northland Whangarei , NZ"
+date = "2018:11:05 15:00:10"
+weight = 115
 +++

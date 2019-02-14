@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00049.jpg"
-title = "Shizuoka Fujinomiya , JP"
-date = "2018-01-05"
+title = "Kanagawa Atsugi , JP"
+date = "2018:01:05 20:34:03"
+weight = 49
 +++

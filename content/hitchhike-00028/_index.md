@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00028.jpg"
-title = "Kagawa Sakaidecho , JP"
-date = "2017-07-15"
+title = "Osaka Suita , JP"
+date = "2017:07:15 03:18:00"
+weight = 28
 +++

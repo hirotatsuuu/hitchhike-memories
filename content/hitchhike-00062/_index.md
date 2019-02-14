@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00062.jpg"
-title = "Aichi Toyota , JP"
-date = "2018-07-17"
+title = "Shiga Prefecture Otsu-shi , JP"
+date = "2018:07:17 17:19:48"
+weight = 62
 +++

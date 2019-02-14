@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00107.jpg"
-title = "Waikato Coromandel , NZ"
-date = "2018-10-15"
+title = "Auckland , NZ"
+date = "2018:09:26 12:43:03"
+weight = 107
 +++

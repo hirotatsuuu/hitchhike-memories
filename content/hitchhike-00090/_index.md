@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00090.jpg"
-title = "Hokkaido Sapporo , JP"
-date = "2018-08-16"
+title = "Aomori Aomori Shi , JP"
+date = "2018:08:15 12:54:17"
+weight = 90
 +++

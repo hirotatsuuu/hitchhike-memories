@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00083.jpg"
-title = "Niigata Shirone , JP"
-date = "2018-08-14"
+title = "Niigata Kashiwazaki , JP"
+date = "2018:08:14 18:38:42"
+weight = 83
 +++

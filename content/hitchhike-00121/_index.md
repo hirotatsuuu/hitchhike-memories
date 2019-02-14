@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00121.jpg"
-title = "Auckland Manukau City , NZ"
-date = "2018-12-05"
+title = "North , NZ"
+date = "2018:12:05 08:15:41"
+weight = 121
 +++

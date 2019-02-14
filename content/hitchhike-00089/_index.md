@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00089.jpg"
-title = "Aomori Aomori Shi , JP"
-date = "2018-08-15"
+title = "Akita Odate , JP"
+date = "2018:08:15 11:30:33"
+weight = 89
 +++

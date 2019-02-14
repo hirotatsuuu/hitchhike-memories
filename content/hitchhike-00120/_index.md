@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00120.jpg"
-title = " , "
-date = "2018-12-05"
+title = "Northland Waimate North , NZ"
+date = "2018:12:03 21:26:38"
+weight = 120
 +++

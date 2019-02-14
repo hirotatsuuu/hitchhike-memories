@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00061.jpg"
-title = "Shiga Prefecture Otsu-shi , JP"
-date = "2018-07-17"
+title = "Kyoto Muko , JP"
+date = "2018:07:17 16:58:03"
+weight = 61
 +++

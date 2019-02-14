@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00109.jpg"
-title = " , "
-date = "2018-10-16"
+title = "Great Barrier Island , NZ"
+date = "2018:10:15 13:57:18"
+weight = 109
 +++

@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00132.jpg"
-title = "Taranaki Waitara , NZ"
-date = "2018-12-20"
+title = "Waikato Otorohanga , NZ"
+date = "2018:12:20 19:06:36"
+weight = 132
 +++

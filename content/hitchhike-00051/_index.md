@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00051.jpg"
-title = "Tokyo Chofugaoka , JP"
-date = "2018-07-13"
+title = "Aichi Toyota , JP"
+date = "2018:01:06 00:10:16"
+weight = 51
 +++

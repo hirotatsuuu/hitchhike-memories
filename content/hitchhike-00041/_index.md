@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00041.jpg"
-title = "Kyoto Muko , JP"
-date = "2017-12-17"
+title = "Nagasaki Fukuecho , JP"
+date = "2017:09:08 17:24:57"
+weight = 41
 +++

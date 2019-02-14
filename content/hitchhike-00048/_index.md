@@ -1,5 +1,6 @@
 +++
 albumthumb = "/images/hitchhike-00048.jpg"
-title = "Kanagawa Atsugi , JP"
-date = "2018-01-05"
+title = "Tokyo Tokyo , JP"
+date = "2017:12:17 20:05:54"
+weight = 48
 +++

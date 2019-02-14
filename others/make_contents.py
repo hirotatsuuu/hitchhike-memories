@@ -7,25 +7,37 @@ import PIL.ExifTags as ExifTags
 import reverse_geocoder as rg
 import random
 import string
+from pathlib import Path
 
 # 関数の定義
 def make_contents():
     print('start make contents!')
 
     num = 0
+
     old_time = "0000-00-00"
 
     imagesPath = '../static/images/'
+
+    if (os.path.exists(imagesPath)):
+            shutil.rmtree(imagesPath)
+
     os.makedirs(imagesPath)
+
     while num < 146:
-        name = '{}-{:0=5}'.format('hitchhike', num) # nameの作成
+        name = '{}-{:0=5}'.format('hitchhike', num + 1) # nameの作成
+        oldName = '{}-{:0=5}'.format('hitchhike', num)
         dirpath = '../content/' + name
-        picpath = '../content/' + name + '/' + name + '.jpg'
-        pic = '/Users/hirotatsu/work/dev/hitchhike-memories/others/hitchhike/' + name +'.jpg'
+
+        pic = '/Users/hirotatsu/work/dev/hitchhike-memories/others/hitchhike/' + oldName + '.jpg'
+
+        if (os.path.exists(dirpath)):
+            shutil.rmtree(dirpath)
 
         os.makedirs(dirpath) # ディレクトリの作成
 
         shutil.copy(pic, imagesPath) #ファイルコピー
+        os.rename(imagesPath + oldName + '.jpg', imagesPath + name + '.png')
 
         # EXIF情報を得る
         im = Image.open(pic)
@@ -40,8 +52,8 @@ def make_contents():
         def get_time (exif):
             if ('DateTimeOriginal' in exif):
                 time = exif["DateTimeOriginal"]
-                old_time = time
-                return time.replace(':', '-')[:10]
+                # old_time = time.replace(':', '-')[:10]
+                return time
             return ''
 
         time = get_time (exif)
@@ -82,6 +94,7 @@ def make_contents():
             'albumthumb = "/images/' + name + '.jpg"\n',
             'title = "' + location + ' , ' + country + '"\n',
             'date = "' + time + '"\n',
+            'weight = ' + str(num + 1) + '\n',
             '+++\n'
         ]
 
@@ -92,6 +105,9 @@ def make_contents():
 
         # numに1をプラスする
         num+=1
+
+    for f in Path(imagesPath).rglob('*.png'):
+        f.rename(f.stem+'.jpg')
 
     print('end make contents!')
 
