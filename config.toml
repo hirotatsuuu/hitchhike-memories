@@ -1,0 +1,83 @@
+# Settings
+baseurl = "http://example.org/"
+languageCode = "ja"
+title = "hitchhike memories"
+theme = "phugo"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+
+    # Meta
+    description = "hitchhike memories"
+    author = "hirotatsu"
+    keywords = "hitchhike"
+
+    # Headerbar links
+    # Do not put here too many links,
+    # it will break mobile appearance
+
+    [[params.header.links]]
+    name = "About"
+    url = "#footer"
+
+    # Footer panel
+
+    [params.footer.paragraph]
+    headline = "hitchhike memories"
+    text = "今までにヒッチハイクで乗せて下さった方々です。"
+
+    [params.footer.social]
+    headline = "Follow me"
+
+    [[params.footer.social.links]]
+    label = "Twitter"
+    url = "https://twitter.com/hirotatsuuu"
+    icon = "fa-twitter"
+
+    [[params.footer.social.links]]
+    label = "Instagram"
+    url = "https://www.instagram.com/hirotatsuuuu"
+    icon = "fa-instagram"
+
+    [[params.footer.social.links]]
+    label = "Blog"
+    url = "https://hirotatsu.me"
+    icon = "fa-globe"
+
+    # Contact form
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'realEmail' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    [params.footer.contact]
+    hide = true # Set this to true if you don't want to have a contact form on your site
+    realEmail = "example@examle.org"
+    headline = "Get in touch"
+    buttonText = "Send"
+    resetText = "Reset"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.footer.contact.name]
+    text = "hirotatsu"
+    warning = "hirotatsu"
+
+    [params.footer.contact.email]
+    text = "hirotatsuuu@gmail.com"
+    warning = "hirotatsuuu@gmail.com"
+
+    [params.footer.contact.message]
+    text = "Message"
+    warning = "message"
+
+    # Copyright
+    [params.footer.copyright]
+    name = "hirotatsu"
