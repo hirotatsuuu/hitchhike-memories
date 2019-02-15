@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00032-thumb.jpg"
 albumthumb = "/images/hitchhike-00032.jpg"
 title = "Kanagawa Atsugi , JP"
 date = "2017:09:05 20:52:37"

@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00005-thumb.jpg"
 albumthumb = "/images/hitchhike-00005.jpg"
 title = "Fukushima , JP"
 date = "2016:11:02 17:22:02"

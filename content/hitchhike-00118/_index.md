@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00118-thumb.jpg"
 albumthumb = "/images/hitchhike-00118.jpg"
 title = "Northland Ahipara , NZ"
 date = "2018:12:03 12:24:00"

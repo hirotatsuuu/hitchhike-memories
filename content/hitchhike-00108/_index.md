@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00108-thumb.jpg"
 albumthumb = "/images/hitchhike-00108.jpg"
 title = "Waikato Coromandel , NZ"
 date = "2018:10:15 12:26:53"

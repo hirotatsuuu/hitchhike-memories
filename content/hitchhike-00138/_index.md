@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00138-thumb.jpg"
 albumthumb = "/images/hitchhike-00138.jpg"
 title = "Manawatu-Wanganui Bulls , NZ"
 date = "2018:12:31 11:55:39"

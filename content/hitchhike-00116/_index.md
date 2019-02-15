@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00116-thumb.jpg"
 albumthumb = "/images/hitchhike-00116.jpg"
 title = "Kerikeri , NZ"
 date = "2018:11:20 00:00:00"

@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00056-thumb.jpg"
 albumthumb = "/images/hitchhike-00056.jpg"
 title = "Shizuoka Kosai-shi , JP"
 date = "2018:07:13 18:34:24"

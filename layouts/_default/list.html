@@ -2,7 +2,7 @@
     <div id="main">
        {{ range (where .Site.Pages "Kind" "section").ByDate.Reverse }}
             <article class="thumb">
-                <a href="{{ .Params.albumthumb }}" class="image"><img src="{{ .Params.albumthumb }}" alt="{{ .Title }}" /></a>
+                <a href="{{ .Params.albumthumb }}" class="image"><img src="{{ .Params.thumb }}" alt="{{ .Title }}" /></a>
                 <h2>{{ .Title }}</h2>
             </article>
         {{ end }}

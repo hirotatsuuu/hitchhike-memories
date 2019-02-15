@@ -1,4 +1,5 @@
 +++
+thumb = "/images/hitchhike-00035-thumb.jpg"
 albumthumb = "/images/hitchhike-00035.jpg"
 title = "Okayama Tsuyama , JP"
 date = "2017:09:06 12:20:58"
