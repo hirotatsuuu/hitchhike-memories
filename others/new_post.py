@@ -20,7 +20,7 @@ def new_post ():
     old_photos_path = './old/' # 処理が終わった写真を格納する場所
 
     # 写真の数の取得
-    photos_num = len(glob.glob(photos_path + '*'))
+    photos_num = len(glob.glob(photos_path + '*.jpg'))
     print('photos_num: ', photos_num)
 
     # 最新プラス1の値を取得
@@ -33,7 +33,7 @@ def new_post ():
 
     # 写真のリネーム
     photo_name_num = leatest_num
-    for f in Path(photos_path).rglob('*'):
+    for f in Path(photos_path).rglob('*.jpg'):
         f.rename(photos_path + '{}-{:0=5}'.format('hitchhike', photo_name_num) + '.jpg')
         photo_name_num += 1
     print('Fin rename')
