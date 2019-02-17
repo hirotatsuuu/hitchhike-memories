@@ -21,7 +21,7 @@ hugo server -D -w
 
 
 ## Domain
-https://hirotatsuuu.github.io/hitchhike-memories/
+https://hitchhike.work
 
 
 ## Usage
@@ -39,3 +39,4 @@ python new_post.py
 ## Reference
 - https://gohugo.io/
 - https://github.com/aerohub/phugo
+- https://help.github.com/articles/setting-up-an-apex-domain/
