@@ -104,17 +104,10 @@ def new_post ():
                 # 写真の圧縮
                 img = cv2.imread(photo_name)
                 size = os.path.getsize(photo_name)
-
-                if (size > 1000000):
-                    scaled = cv2.resize(img, dsize=(int(img.shape[1] / 16), int(img.shape[0] / 16)))
-                elif (size > 700000):
-                    scaled = cv2.resize(img, dsize=(int(img.shape[1] / 14), int(img.shape[0] / 14)))
-                elif (size > 500000):
-                    scaled = cv2.resize(img, dsize=(int(img.shape[1] / 12), int(img.shape[0] / 12)))
-                elif (size > 300000):
-                    scaled = cv2.resize(img, dsize=(int(img.shape[1] / 8), int(img.shape[0] / 12)))
-                elif (size > 100000):
+                if (size > 500000):
                     scaled = cv2.resize(img, dsize=(int(img.shape[1] / 6), int(img.shape[0] / 6)))
+                elif (size > 100000):
+                    scaled = cv2.resize(img, dsize=(int(img.shape[1] / 5), int(img.shape[0] / 5)))
                 else:
                     scaled = cv2.resize(img, dsize=(int(img.shape[1] / 4), int(img.shape[0] / 4)))
                 cv2.imwrite(photo_name_thumb, scaled)
