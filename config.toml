@@ -1,5 +1,5 @@
 # Settings
-baseurl = "https://hitchhike.work"
+baseurl = "https://hitchhike.work/"
 languageCode = "ja"
 title = "hitchhike memories"
 theme = "phugo"
