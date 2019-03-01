@@ -43,7 +43,7 @@ canonifyurls = true
 
     [[params.footer.social.links]]
     label = "Blog"
-    url = "https://hirotatsu.me"
+    url = "https://hirotatsu.site"
     icon = "fa-globe"
 
     # Contact form
