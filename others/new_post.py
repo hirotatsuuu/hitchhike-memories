@@ -31,11 +31,32 @@ def new_post ():
     leatest_num = int(list[-1][-5:]) + 1
     print('leatest_num: ', leatest_num)
 
+    # 写真の並び替え
+    before_sort_files = {}
+    for f in Path(photos_path).rglob('*.jpg'):
+        # exifの取得
+        img = Image.open(photos_path + f.name)
+        exif = {
+            ExifTags.TAGS[k]: v
+            for k, v in img._getexif().items()
+            if k in ExifTags.TAGS
+        }
+        # 日付情報の取得
+        if ('DateTimeOriginal' in exif):
+            date = exif["DateTimeOriginal"]
+
+        before_sort_files.setdefault(f.stem, date)
+
+    sort_files = sorted(before_sort_files.items(), key=lambda x: x[1])
+    print('sort_files: ', sort_files)
+
     # 写真のリネーム
     photo_name_num = leatest_num
-    for f in Path(photos_path).rglob('*.jpg'):
-        f.rename(photos_path + '{}-{:0=5}'.format('hitchhike', photo_name_num) + '.jpg')
-        photo_name_num += 1
+    for k in sort_files:
+        for f in Path(photos_path).rglob('*.jpg'):
+            if (k[0] == f.stem):
+                f.rename(photos_path + '{}-{:0=5}'.format('hitchhike', photo_name_num) + '.jpg')
+                photo_name_num += 1
     print('Fin rename')
 
     while num < photos_num:
