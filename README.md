@@ -33,6 +33,19 @@ python new_post.py
 ```
 
 3. Optionally adjust image rotation
+4. update docs
+
+```
+hugo
+```
+
+5. push master
+
+```
+git add .
+git commit -m 'update docs'
+git push origin master
+```
 
 
 
