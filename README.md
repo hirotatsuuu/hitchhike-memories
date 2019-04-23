@@ -29,6 +29,7 @@ https://hitchhike.work
 2. exec `new_post.py`
 
 ```
+cd othors
 python new_post.py
 ```
 
@@ -46,8 +47,6 @@ git add .
 git commit -m 'update docs'
 git push origin master
 ```
-
-
 
 ## Reference
 - https://gohugo.io/
