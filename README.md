@@ -29,7 +29,7 @@ https://hitchhike.work
 2. exec `new_post.py`
 
 ```
-cd othors
+cd others
 python new_post.py
 ```
 
