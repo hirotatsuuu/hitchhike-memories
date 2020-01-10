@@ -84,6 +84,7 @@ def new_post ():
                 print('Date: ', date)
 
                 # GPS情報の取得
+                title = ''
                 if ('GPSInfo' in exif):
                     gps_tags = exif["GPSInfo"]
                     gps = {
