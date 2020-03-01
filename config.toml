@@ -1,5 +1,5 @@
 # Settings
-baseurl = "https://hitchhike.work/"
+baseurl = "https://hirotatsuuu.github.io/hitchhike-memories/"
 languageCode = "ja"
 title = "hitchhike memories"
 theme = "phugo"
@@ -43,7 +43,7 @@ canonifyurls = true
 
     [[params.footer.social.links]]
     label = "Blog"
-    url = "https://hirotatsu.site"
+    url = "https://hirotatsu.me"
     icon = "fa-globe"
 
     # Contact form
